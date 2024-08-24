@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>🌊 Rota das Ondas</title>
+
+        <style>
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .header h1 {
+                margin: 0;
+            }
+            .header a {
+                margin-left: 15px;
+                text-decoration: none;
+                color: #007BFF;
+            }
+            .fundo{
+                background-color: aliceblue;
+            }
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        hr{
+            border: 1px solid #D9D9D9;
+            padding-left: 10px;
+            margin-left: -5px;
+            margin-right: -5px;
+        }
+        .header b{
+                text-decoration: none;
+                color: #007BFF;
+                display: flex;
+                gap: 15px;
+        }
+
+        .containerA{
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente o conteúdo */
+            
+        }
+
+        .container {
+            display: flex; /* Usa Flexbox para distribuir as colunas horizontalmente */
+            justify-content: space-around; /* Espaça as colunas uniformemente */
+            padding: 20px; /* Adiciona um pouco de espaço ao redor do contêiner */
+            flex-wrap: wrap; /* Permite que as colunas se movam para a próxima linha em telas menores */
+        }
+        .column {
+            flex: 1; /* Permite que cada coluna cresça igualmente */
+            max-width: 300px; /* Define uma largura máxima para as colunas */
+            box-sizing: border-box; /* Inclui padding e border na largura e altura total */
+            margin: 10px; /* Adiciona um pouco de espaço entre as colunas */
+            text-align: center; /* Centraliza o texto dentro da coluna */
+        }
+        .column img {
+            width: 100%; /* Faz com que a imagem ocupe a largura total da coluna */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 8px; /* Adiciona bordas arredondadas à imagem */
+            margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+        }
+        .column h2 {
+            font-size: 20px; /* Define o tamanho da fonte do título */
+            color: #333; /* Define a cor do texto do título */
+            margin: 0; /* Remove a margem padrão do título */
+        }
+        .column p {
+            font-size: 16px; /* Define o tamanho da fonte do texto */
+            color: #666; /* Define a cor do texto */
+            margin: 0; /* Remove a margem padrão do parágrafo */
+        }
+        .baixo{
+            padding: 10px;
+        }
+        .barra{
+            margin-left: -9px;
+            margin-right: -9px;
+            margin-top: -18px;
+            margin-bottom: -15px;
+        }
+
+
+        
+
+        </style>
+
+</head>
+
+<body class="fundo">
+    <div class="header">
+        <h1 style="padding: 20px; margin-left: -10px; color: #333;">Seja bem-vindo ao Rota das Ondas</h1>
+        <div class="links" style="margin-right: 10px;">
+            <a href="",style="padding: 20px;">Entrar</a>
+            <a href="",style="padding: 20px;">Cadastrar</a>
+        </div>
+    </div>
+    <hr>
+    <div class="containerA">
+        <div class="header b">
+            <p style="color: #333;">Encontre os melhores hotéis: &nbsp;</p>
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwicgtfNlo6IAxUvWUgAHcR5O7gYABABGgJjZQ&co=1&gclid=CjwKCAjwiaa2BhAiEiwAQBgyHjliEV95NviaaTxC091mmT1rH1UexoiK0v-lD5QX7wo8A6SYg1InyxoC-FsQAvD_BwE&ohost=www.google.com&cid=CAESVuD2DYuJ1jZp4nfyEvuqbpjKABSopzzsbSEm0OLI0s6u743PMqAuFjfE0mBMmIWIMowb8D6ZyV5PL2jfynTUqcqI1BMT-H6pgq5JNRcAml5jJnnmlmIw&sig=AOD64_2Cor--L30lS2IcnsIAF38-QlTSWw&q&adurl&ved=2ahUKEwj7vtLNlo6IAxUyHLkGHam6GjwQ0Qx6BAgKEAE">Trivago &nbsp;&nbsp;&nbsp;</a>
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwicgtfNlo6IAxUvWUgAHcR5O7gYABAAGgJjZQ&co=1&gclid=CjwKCAjwiaa2BhAiEiwAQBgyHsYV3WTlY6tU6w6UY0LV_XTIs40ebkXOot92bujn7Q8IoGKu_XjdaBoCmUgQAvD_BwE&ohost=www.google.com&cid=CAESVuD2DYuJ1jZp4nfyEvuqbpjKABSopzzsbSEm0OLI0s6u743PMqAuFjfE0mBMmIWIMowb8D6ZyV5PL2jfynTUqcqI1BMT-H6pgq5JNRcAml5jJnnmlmIw&sig=AOD64_2S7mFBM_MuB2JXA6d0jUqipEbR9g&q&adurl&ved=2ahUKEwj7vtLNlo6IAxUyHLkGHam6GjwQ0Qx6BAgIEAE">KAIAK &nbsp;&nbsp;&nbsp;</a>
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwicgtfNlo6IAxUvWUgAHcR5O7gYABACGgJjZQ&co=1&gclid=CjwKCAjwiaa2BhAiEiwAQBgyHgGH4TNWcGp_9nH6rT_ihJRS-h2UebZUbYHLD6VI2QvpZxzKTAQrbRoCkpMQAvD_BwE&ohost=www.google.com&cid=CAESVuD2DYuJ1jZp4nfyEvuqbpjKABSopzzsbSEm0OLI0s6u743PMqAuFjfE0mBMmIWIMowb8D6ZyV5PL2jfynTUqcqI1BMT-H6pgq5JNRcAml5jJnnmlmIw&sig=AOD64_39QTgUUY4EGa3HQezy56DCWKhPCg&q&adurl&ved=2ahUKEwj7vtLNlo6IAxUyHLkGHam6GjwQ0Qx6BAgJEAE">Airbnb &nbsp;&nbsp;&nbsp;</a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/index.pt-br.html&ved=2ahUKEwjV25yBnI6IAxV2q5UCHSlUFnkQFnoECBEQAQ&usg=AOvVaw3AgRDBKwl8VT0RxcH6-b-h">Booking &nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <div class="container">
+        <div class="column">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/22/ba/2b/caption.jpg?w=300&h=300&s=1" alt="Imagem 1">
+            <h2>Praia Grande (São Paulo)</h2>
+            <p>A cidade de Praia Grande tem uma das praias mais movimentadas do Brasil, tendo sido eleita pelo Ministério do Turismo como a quarta cidade que mais recebe turistas no país durante a temporada de verão, depois de São Paulo, Rio de Janeiro e Florianópolis. Na alta temporada recebe cerca de 1,86 milhão de turistas (mais de cinco vezes a sua população fixa). A cidade também teve uma rápida expansão, com crescimento de 56 000 habitantes entre 2000 e 2009, recebendo, em 2015, o título de "a cidade que mais cresce no Brasil".</p>
+        </div>
+        <div class="column">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/9a/4c/c9/caption.jpg?w=300&h=300&s=1" alt="Imagem 2">
+            <h2>Ilhabela</h2>
+            <p>Possui uma das mais acidentadas paisagens da região costeira brasileira, com todas as características de relevo jovem. Com o aspecto geral de um conjunto montanhoso – formado pelo Maciço de São Sebastião e Maciço da Serraria, além da acidentada Península do Boi –, a Ilha de São Sebastião se destaca como um dos acidentes geográficos mais elevados e salientes do litoral paulista, tendo como pontos culminantes o Pico de São Sebastião, com 1379 metros de altitude; o Morro do Papagaio, com 1302 metros; e o Morro da Serraria, com 1285 metros.</p>
+        </div>
+        <div class="column">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/bb/49/80/praia-dos-sonhos.jpg?w=300&h=300&s=1" alt="Imagem 3">
+            <h2>Itanhaém</h2>
+            <p>Itanhaém é um Município situado no litoral sul do Estado de São Paulo, sendo a segunda Cidade mais antiga do Brasil, fundada em 22 de abril de 1532, por Martim Afonso de Souza. Tem grande importância histórica, pois oferece ao turista a possibilidade de conhecer diversos locais que remetem e retratam, de forma fiel, a sua história.</p>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    <div style="background-color: #D9D9D9;" class="barra">
+        <p class="baixo" style="margin-left: 10px;">Entre em contato:</p>
+        <p class="baixo" style="margin-left: 10px;">📷 <a href="https://www.instagram.com/mattheus_gatto/"></a>Instagram</p>
+        <p class="baixo" style="margin-top: -25px; margin-left: 10px">📞 Telefone: (11) 94392-0488</p>
+    </div>
+
+</body>
+
+</html>
